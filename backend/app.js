@@ -13,8 +13,7 @@ const reservationRouter = require("./routers/reservationRouter")
 
 const corsOptions = {
     origin: process.env.FRONTEND_URI,
-    methods: ["POST"],
-    Credential: true,
+    methods: ["GET", "POST", "PUT", "DELETE"],
     optionsSuccessStatus: 200
 }
 
