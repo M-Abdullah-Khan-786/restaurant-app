@@ -1,0 +1,42 @@
+.home-page header{
+    background-image: url(../assets/images/header.jpg);
+}
+header{
+    background-size: cover;
+    background-position: center;
+}
+.home-page header h1{
+    font-size: 6rem;
+}
+.home-page header h1,
+.home-page header h2{
+    text-shadow: 2px 2px 8px #ffffff;
+}
+.menu-section{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../assets/images/menu.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.home-page img{
+    border-radius: 30px;
+}
+.gallery-img img{
+    height:280px ;
+    width: 420px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 30px;
+}
+imageabout{
+    border-radius: 30px;
+}
+@media only screen and (max-width: 768px){
+    .home-page header h1{
+        font-size: 4rem;
+    }
+}
+@media only screen and (max-width: 578px){
+    .home-page header h1{
+        font-size: 3rem;
+    }
+}
