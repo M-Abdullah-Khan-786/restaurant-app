@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/About.css";
-import ImageGallery from "../component/ImageGallery";
-import Reviews from "../component/Reviews";
+import ImageGallery from "../components/ImageGallery";
+import Reviews from "../components/Reviews";
 
 const About = () => {
   return (

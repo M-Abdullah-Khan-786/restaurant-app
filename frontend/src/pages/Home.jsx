@@ -1,11 +1,11 @@
 import React from "react";
 import "../css/Home.css";
-import MenuButton from "../component/MenuButton";
-import AboutButton from "../component/AboutButton";
-import MenuButtonOutline from "../component/MenuButtonOutline";
+import MenuButton from "../components/MenuButton";
+import AboutButton from "../components/AboutButton";
+import MenuButtonOutline from "../components/MenuButtonOutline";
 import img from "../assets/images/header.jpg";
 import about from "../assets/images/about.jpg";
-import ContactInfo from "../component/ContactInfo";
+import ContactInfo from "../components/ContactInfo";
 
 const Home = () => {
   return (

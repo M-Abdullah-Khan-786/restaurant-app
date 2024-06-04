@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/Conatct.css";
-import ContactInfo from "../component/ContactInfo";
+import ContactInfo from "../components/ContactInfo";
 import Form from "react-bootstrap/Form";
 import { Button } from "react-bootstrap";
 
